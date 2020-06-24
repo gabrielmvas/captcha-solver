@@ -1,0 +1,5 @@
+tensorflow-object-detection-api
+numpy
+opencv-python
+pandas
+tensorflow

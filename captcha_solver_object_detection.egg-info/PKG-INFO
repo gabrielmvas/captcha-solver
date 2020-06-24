@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: captcha-solver-object-detection
+Version: 10.0
+Summary: A captcha solver package with object detection
+Home-page: https://github.com/gabrielmvas/captcha-solver-object-detection
+Author: Gabriel Vasconcelos
+Author-email: gabrielmvas@gmail.com
+License: MIT
+Description: # Captcha Object Detection 
+        
+        A package that uses object detection to solve digit captchas
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

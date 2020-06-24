@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+captcha_solver_object_detection/__init__.py
+captcha_solver_object_detection/captcha_solver.py
+captcha_solver_object_detection.egg-info/PKG-INFO
+captcha_solver_object_detection.egg-info/SOURCES.txt
+captcha_solver_object_detection.egg-info/dependency_links.txt
+captcha_solver_object_detection.egg-info/requires.txt
+captcha_solver_object_detection.egg-info/top_level.txt
