@@ -8,3 +8,9 @@ captcha_solver_object_detection.egg-info/SOURCES.txt
 captcha_solver_object_detection.egg-info/dependency_links.txt
 captcha_solver_object_detection.egg-info/requires.txt
 captcha_solver_object_detection.egg-info/top_level.txt
+captcha_solver_object_detection/model/frozen_inference_graph.pb
+captcha_solver_object_detection/model/labelmap.pbtxt
+captcha_solver_object_detection/model/model.ckpt.data-00000-of-00001
+captcha_solver_object_detection/model/model.ckpt.index
+captcha_solver_object_detection/model/model.ckpt.meta
+captcha_solver_object_detection/model/pipeline.config

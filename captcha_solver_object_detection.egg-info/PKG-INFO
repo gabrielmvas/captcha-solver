@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: captcha-solver-object-detection
-Version: 10.0
+Version: 10.1
 Summary: A captcha solver package with object detection
 Home-page: https://github.com/gabrielmvas/captcha-solver-object-detection
 Author: Gabriel Vasconcelos

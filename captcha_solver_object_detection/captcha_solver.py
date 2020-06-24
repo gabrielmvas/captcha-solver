@@ -8,13 +8,15 @@ import os
 import collections
 from pathlib import Path
 
+
 BASE_DIR = Path(__file__).parent
+
 
 class CaptchaSolver(object):
     
     
-    def __init__(self, num_classes=36):
-        self.num_classes = num_classes
+    def __init__(self):
+        self.num_classes = 36
         self.labels_path = str((BASE_DIR / 'model/labelmap.pbtxt').resolve())
         self.modelckpt_path = str((BASE_DIR / 'model/frozen_inference_graph.pb').resolve())
         self.tolerance  = 0.6
@@ -31,6 +33,7 @@ class CaptchaSolver(object):
     
     def __load_tfmodel(self):        
         self.detection_graph = tf.Graph()
+
         with self.detection_graph.as_default():
             od_graph_def = tf.GraphDef()
             
@@ -97,7 +100,7 @@ class CaptchaSolver(object):
     
     def predict_captcha(self, image_path):
         self.__load_tfmodel()
-        
+
         image_tensor      = self.detection_graph.get_tensor_by_name('image_tensor:0')
         detection_boxes   = self.detection_graph.get_tensor_by_name('detection_boxes:0')
         detection_scores  = self.detection_graph.get_tensor_by_name('detection_scores:0')
