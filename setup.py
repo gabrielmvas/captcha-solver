@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     
 setuptools.setup(
      name='captcha_solver_object_detection',  
-     version='10.1',
+     version='10.2',
      license='MIT',
      author="Gabriel Vasconcelos",
      author_email="gabrielmvas@gmail.com",
@@ -14,7 +14,7 @@ setuptools.setup(
      long_description=long_description,
      long_description_content_type="text/markdown",
      url="https://github.com/gabrielmvas/captcha-solver-object-detection",
-     download="https://github.com/gabrielmvas/captcha-solver-object-detection/archive/10.1.tar.gz",
+     download="https://github.com/gabrielmvas/captcha-solver-object-detection/archive/10.2.tar.gz",
      packages = ['captcha_solver_object_detection'], 
      package_data={'captcha_solver_object_detection': ['model/*.*']},
      install_requires=[
