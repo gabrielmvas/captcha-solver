@@ -1,3 +1,3 @@
 # Captcha Object Detection 
 
-A package that uses object detection to solve digit captchas
+A python package for solving 6 digit Captchas. It uses an Object Detection model trained to identify numbers and letters.
